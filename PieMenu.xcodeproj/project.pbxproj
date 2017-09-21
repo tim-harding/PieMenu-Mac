@@ -13,6 +13,14 @@
 		229BAAD81F730B5E0025315F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229BAAD61F730B5E0025315F /* Main.storyboard */; };
 		229BAAE31F730B5E0025315F /* PieMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAE21F730B5E0025315F /* PieMenuTests.swift */; };
 		229BAAEE1F730B5E0025315F /* PieMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAED1F730B5E0025315F /* PieMenuUITests.swift */; };
+		229BAAFC1F730F050025315F /* CircleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAFB1F730F050025315F /* CircleWindow.swift */; };
+		229BAAFE1F7319030025315F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAFD1F7319030025315F /* CircleView.swift */; };
+		229BAB061F7325F00025315F /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB011F7325F00025315F /* HotKey.swift */; };
+		229BAB071F7325F00025315F /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB021F7325F00025315F /* HotKeysController.swift */; };
+		229BAB081F7325F00025315F /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB031F7325F00025315F /* Key.swift */; };
+		229BAB091F7325F00025315F /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB041F7325F00025315F /* KeyCombo.swift */; };
+		229BAB0A1F7325F00025315F /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */; };
+		229BAB0D1F735BB60025315F /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB0C1F735BB60025315F /* Pie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		229BAAE91F730B5E0025315F /* PieMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229BAAED1F730B5E0025315F /* PieMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieMenuUITests.swift; sourceTree = "<group>"; };
 		229BAAEF1F730B5E0025315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229BAAFB1F730F050025315F /* CircleWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWindow.swift; sourceTree = "<group>"; };
+		229BAAFD1F7319030025315F /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		229BAB011F7325F00025315F /* HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
+		229BAB021F7325F00025315F /* HotKeysController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKeysController.swift; sourceTree = "<group>"; };
+		229BAB031F7325F00025315F /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		229BAB041F7325F00025315F /* KeyCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCombo.swift; sourceTree = "<group>"; };
+		229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+		229BAB0C1F735BB60025315F /* Pie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +111,15 @@
 		229BAACF1F730B5E0025315F /* PieMenu */ = {
 			isa = PBXGroup;
 			children = (
+				229BAB0B1F7325F80025315F /* Hotkey */,
 				229BAAD01F730B5E0025315F /* AppDelegate.swift */,
 				229BAAD21F730B5E0025315F /* ViewController.swift */,
 				229BAAD41F730B5E0025315F /* Assets.xcassets */,
 				229BAAD61F730B5E0025315F /* Main.storyboard */,
 				229BAAD91F730B5E0025315F /* Info.plist */,
+				229BAAFB1F730F050025315F /* CircleWindow.swift */,
+				229BAAFD1F7319030025315F /* CircleView.swift */,
+				229BAB0C1F735BB60025315F /* Pie.swift */,
 			);
 			path = PieMenu;
 			sourceTree = "<group>";
@@ -120,6 +140,18 @@
 				229BAAEF1F730B5E0025315F /* Info.plist */,
 			);
 			path = PieMenuUITests;
+			sourceTree = "<group>";
+		};
+		229BAB0B1F7325F80025315F /* Hotkey */ = {
+			isa = PBXGroup;
+			children = (
+				229BAB011F7325F00025315F /* HotKey.swift */,
+				229BAB021F7325F00025315F /* HotKeysController.swift */,
+				229BAB031F7325F00025315F /* Key.swift */,
+				229BAB041F7325F00025315F /* KeyCombo.swift */,
+				229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */,
+			);
+			name = Hotkey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229BAB0D1F735BB60025315F /* Pie.swift in Sources */,
+				229BAB081F7325F00025315F /* Key.swift in Sources */,
+				229BAAFE1F7319030025315F /* CircleView.swift in Sources */,
+				229BAB0A1F7325F00025315F /* NSEventModifierFlags+HotKey.swift in Sources */,
+				229BAB091F7325F00025315F /* KeyCombo.swift in Sources */,
+				229BAAFC1F730F050025315F /* CircleWindow.swift in Sources */,
 				229BAAD31F730B5E0025315F /* ViewController.swift in Sources */,
+				229BAB071F7325F00025315F /* HotKeysController.swift in Sources */,
+				229BAB061F7325F00025315F /* HotKey.swift in Sources */,
 				229BAAD11F730B5E0025315F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

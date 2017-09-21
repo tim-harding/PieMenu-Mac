@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  PieMenu
-//
-//  Created by tim on 9/20/17.
-//  Copyright © 2017 TGD. All rights reserved.
-//
-
 import Cocoa
 
 class ViewController: NSViewController {
