@@ -20,7 +20,7 @@ class CircleView: NSView {
     private let innerRadius = CGFloat(32)
     
     func updatePosition() {
-        let mouseOrigin = NSEvent.mouseLocation()
+        let mouseOrigin = NSEvent.mouseLocation
         let windowOrigin = window!.frame.origin
         let originOffset = NSPoint(x: mouseOrigin.x - windowOrigin.x - bounds.midX, y: mouseOrigin.y - windowOrigin.y - bounds.midY)
         let distanceToOrigin = pow(pow(originOffset.x, 2) + pow(originOffset.y, 2), 1 / 2)
@@ -44,17 +44,24 @@ class CircleView: NSView {
     
     override func draw(_ dirtyRect: NSRect) {
         NSColor.clear.set()
-        NSRectFill(frame)
+        frame.fill()
+        
+        let strings: [String]
+        if let delegate = delegate {
+            strings = delegate.needsTitles()
+        } else {
+            strings = [String](repeating: "", count: 8)
+        }
         
         let center = NSPoint(x: bounds.midX, y: bounds.midY)
         for slice in 0..<8 {
             darkActive(section: slice)
             
-            let oval = NSBezierPath()
+            let shape = NSBezierPath()
             
             let bisector = Double(slice * 45)
             let angleOffset = 22.5 - gap
-            oval.appendArc(
+            shape.appendArc(
                 withCenter: center,
                 radius: bounds.midX,
                 startAngle: CGFloat(bisector - angleOffset),
@@ -62,7 +69,7 @@ class CircleView: NSView {
             )
             
             let innerGap = 22.5 - gap / Double(innerRadius / bounds.midX)
-            oval.appendArc(
+            shape.appendArc(
                 withCenter: center,
                 radius: innerRadius,
                 startAngle: CGFloat(bisector + innerGap),
@@ -70,43 +77,36 @@ class CircleView: NSView {
                 clockwise: true
             )
             
-            oval.fill()
+            shape.fill()
+            
+            let x = CGFloat(sin(Double(slice * -1 + 2) * Double.pi / 4) * 90 + 128)
+            let y = CGFloat(cos(Double(slice * -1 + 2) * Double.pi / 4) * 90 + 128)
+            
+            let string = slice < strings.count ? strings[slice] : ""
+            drawText(string: string, x: x, y: y)
         }
         
         darkActive(section: 8)
         let pad = CGFloat(4)
-        let oval = NSBezierPath(ovalIn: NSRect(x: bounds.midX - innerRadius + pad, y: bounds.midY - innerRadius + pad, width: innerRadius * 2 - pad * 2, height: innerRadius * 2 - pad * 2))
-        oval.fill()
+        let shape = NSBezierPath(ovalIn: NSRect(x: bounds.midX - innerRadius + pad, y: bounds.midY - innerRadius + pad, width: innerRadius * 2 - pad * 2, height: innerRadius * 2 - pad * 2))
+        shape.fill()
         
-        
-        let paragraph = NSMutableParagraphStyle()
-        paragraph.alignment = .center
-        let text = NSString(string: "Prefs")
-        let textFrame = text.boundingRect(with: NSSize(width: 256, height: CGFloat.greatestFiniteMagnitude), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: nil)
-        let font = NSFont()
-        let fontHeight = findHeight(text: text, widthValue: frame.width, font: font)
-        Swift.print(fontHeight)
-        
-        text.draw(in: textFrame, withAttributes: [
-            NSForegroundColorAttributeName: NSColor.white,
-            NSParagraphStyleAttributeName: paragraph
-        ])
-        
+        drawText(string: "Prefs", x: center.x, y: center.y)
         
         window!.hasShadow = false
         window!.display()
     }
     
-    private func findHeight(text: NSString, widthValue: CGFloat, font: NSFont) -> CGSize {
-        var textFrame = CGSize.zero
-        if (text.boolValue) {
-            textFrame = text.boundingRect(
-                with: CGSize(width: widthValue, height: CGFloat.greatestFiniteMagnitude),
-                options: NSStringDrawingOptions.usesLineFragmentOrigin,
-                attributes: [NSFontAttributeName: font]
-            )
-        }
-        return CGSize(width: frame.width, height: frame.height + 1)
+    func drawText(string: String, x: CGFloat, y: CGFloat) {
+        let attributes = [
+            NSAttributedStringKey.font: NSFont.boldSystemFont(ofSize: 12),
+            NSAttributedStringKey.foregroundColor: NSColor.white
+        ]
+
+        let text = NSString(string: string)
+        let size = text.size(withAttributes: attributes)
+        let textOrigin = NSPoint(x: x - size.width / 2, y: y - size.height / 2)
+        text.draw(at: textOrigin, withAttributes: attributes)
     }
     
 }

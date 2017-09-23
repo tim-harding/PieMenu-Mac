@@ -9,23 +9,23 @@
 import AppKit
 import Carbon
 
-extension NSEventModifierFlags {
+extension NSEvent.ModifierFlags {
 	public var carbonFlags: UInt32 {
 		var carbonFlags: UInt32 = 0
 
-		if contains(.command) {
+		if contains(NSEvent.ModifierFlags.command) {
 			carbonFlags |= UInt32(cmdKey)
 		}
 
-		if contains(.option) {
+		if contains(NSEvent.ModifierFlags.option) {
 			carbonFlags |= UInt32(optionKey)
 		}
 
-		if contains(.control) {
+		if contains(NSEvent.ModifierFlags.control) {
 			carbonFlags |= UInt32(controlKey)
 		}
 
-		if contains(.shift) {
+		if contains(NSEvent.ModifierFlags.shift) {
 			carbonFlags |= UInt32(shiftKey)
 		}
 
@@ -36,19 +36,19 @@ extension NSEventModifierFlags {
 		self.init()
 
 		if carbonFlags & UInt32(cmdKey) == UInt32(cmdKey) {
-			insert(.command)
+			insert(NSEvent.ModifierFlags.command)
 		}
 
 		if carbonFlags & UInt32(optionKey) == UInt32(optionKey) {
-			insert(.option)
+			insert(NSEvent.ModifierFlags.option)
 		}
 
 		if carbonFlags & UInt32(controlKey) == UInt32(controlKey) {
-			insert(.control)
+			insert(NSEvent.ModifierFlags.control)
 		}
 
 		if carbonFlags & UInt32(shiftKey) == UInt32(shiftKey) {
-			insert(.shift)
+			insert(NSEvent.ModifierFlags.shift)
 		}
 	}
 }
