@@ -15,12 +15,10 @@
 		229BAAEE1F730B5E0025315F /* PieMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAED1F730B5E0025315F /* PieMenuUITests.swift */; };
 		229BAAFC1F730F050025315F /* CircleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAFB1F730F050025315F /* CircleWindow.swift */; };
 		229BAAFE1F7319030025315F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAAFD1F7319030025315F /* CircleView.swift */; };
-		229BAB061F7325F00025315F /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB011F7325F00025315F /* HotKey.swift */; };
-		229BAB071F7325F00025315F /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB021F7325F00025315F /* HotKeysController.swift */; };
-		229BAB081F7325F00025315F /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB031F7325F00025315F /* Key.swift */; };
-		229BAB091F7325F00025315F /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB041F7325F00025315F /* KeyCombo.swift */; };
-		229BAB0A1F7325F00025315F /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */; };
 		229BAB0D1F735BB60025315F /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BAB0C1F735BB60025315F /* Pie.swift */; };
+		29206CCB0D2E7ECFCB81CB82 /* Pods_PieMenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D2C39E1AC61A298F0FB175 /* Pods_PieMenuUITests.framework */; };
+		974E8E6FF9E9BD54E5F18275 /* Pods_PieMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D059ECF160161E0C9D0BEACA /* Pods_PieMenu.framework */; };
+		F12B8C411F26C69DB7DC0FE1 /* Pods_PieMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D24921F5957970D93E397DA /* Pods_PieMenuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +53,16 @@
 		229BAAEF1F730B5E0025315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229BAAFB1F730F050025315F /* CircleWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWindow.swift; sourceTree = "<group>"; };
 		229BAAFD1F7319030025315F /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		229BAB011F7325F00025315F /* HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
-		229BAB021F7325F00025315F /* HotKeysController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKeysController.swift; sourceTree = "<group>"; };
-		229BAB031F7325F00025315F /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
-		229BAB041F7325F00025315F /* KeyCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCombo.swift; sourceTree = "<group>"; };
-		229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
 		229BAB0C1F735BB60025315F /* Pie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		2D24921F5957970D93E397DA /* Pods_PieMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B728339D8CAC382552049D3 /* Pods-PieMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58D2C39E1AC61A298F0FB175 /* Pods_PieMenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5D819D1950DCCB67ECD093 /* Pods-PieMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenu/Pods-PieMenu.release.xcconfig"; sourceTree = "<group>"; };
+		667754B664678432B8B14587 /* Pods-PieMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DFB909ECA1A843AC8B68C49 /* Pods-PieMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenu/Pods-PieMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		CA2FE0E16CAD0662E59D22D2 /* Pods-PieMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D059ECF160161E0C9D0BEACA /* Pods_PieMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51876D1A506D5DDDD783146 /* Pods-PieMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieMenuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974E8E6FF9E9BD54E5F18275 /* Pods_PieMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12B8C411F26C69DB7DC0FE1 /* Pods_PieMenuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29206CCB0D2E7ECFCB81CB82 /* Pods_PieMenuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CB6A5D118A5AA5DDBA89228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D059ECF160161E0C9D0BEACA /* Pods_PieMenu.framework */,
+				2D24921F5957970D93E397DA /* Pods_PieMenuTests.framework */,
+				58D2C39E1AC61A298F0FB175 /* Pods_PieMenuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EEFBBD2E6FED3C442573416 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB909ECA1A843AC8B68C49 /* Pods-PieMenu.debug.xcconfig */,
+				5D5D819D1950DCCB67ECD093 /* Pods-PieMenu.release.xcconfig */,
+				3B728339D8CAC382552049D3 /* Pods-PieMenuTests.debug.xcconfig */,
+				667754B664678432B8B14587 /* Pods-PieMenuTests.release.xcconfig */,
+				CA2FE0E16CAD0662E59D22D2 /* Pods-PieMenuUITests.debug.xcconfig */,
+				E51876D1A506D5DDDD783146 /* Pods-PieMenuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		229BAAC41F730B5E0025315F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +123,8 @@
 				229BAAE11F730B5E0025315F /* PieMenuTests */,
 				229BAAEC1F730B5E0025315F /* PieMenuUITests */,
 				229BAACE1F730B5E0025315F /* Products */,
+				0EEFBBD2E6FED3C442573416 /* Pods */,
+				0CB6A5D118A5AA5DDBA89228 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +141,6 @@
 		229BAACF1F730B5E0025315F /* PieMenu */ = {
 			isa = PBXGroup;
 			children = (
-				229BAB0B1F7325F80025315F /* Hotkey */,
 				229BAAD01F730B5E0025315F /* AppDelegate.swift */,
 				229BAAD21F730B5E0025315F /* ViewController.swift */,
 				229BAAD41F730B5E0025315F /* Assets.xcassets */,
@@ -142,18 +171,6 @@
 			path = PieMenuUITests;
 			sourceTree = "<group>";
 		};
-		229BAB0B1F7325F80025315F /* Hotkey */ = {
-			isa = PBXGroup;
-			children = (
-				229BAB011F7325F00025315F /* HotKey.swift */,
-				229BAB021F7325F00025315F /* HotKeysController.swift */,
-				229BAB031F7325F00025315F /* Key.swift */,
-				229BAB041F7325F00025315F /* KeyCombo.swift */,
-				229BAB051F7325F00025315F /* NSEventModifierFlags+HotKey.swift */,
-			);
-			name = Hotkey;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 229BAAF21F730B5E0025315F /* Build configuration list for PBXNativeTarget "PieMenu" */;
 			buildPhases = (
+				6120895F95241CA93D592372 /* [CP] Check Pods Manifest.lock */,
 				229BAAC91F730B5E0025315F /* Sources */,
 				229BAACA1F730B5E0025315F /* Frameworks */,
 				229BAACB1F730B5E0025315F /* Resources */,
+				23D2A2DA59236E6662991FB0 /* [CP] Embed Pods Frameworks */,
+				2D93AD06CCB00A69D6D680EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 229BAAF51F730B5E0025315F /* Build configuration list for PBXNativeTarget "PieMenuTests" */;
 			buildPhases = (
+				BFE345053FC54037CDC4C3A4 /* [CP] Check Pods Manifest.lock */,
 				229BAADA1F730B5E0025315F /* Sources */,
 				229BAADB1F730B5E0025315F /* Frameworks */,
 				229BAADC1F730B5E0025315F /* Resources */,
+				F23B9682C4CA06BB3EC8E65F /* [CP] Embed Pods Frameworks */,
+				4FB856C83D48B4B90684B603 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 229BAAF81F730B5E0025315F /* Build configuration list for PBXNativeTarget "PieMenuUITests" */;
 			buildPhases = (
+				A585721069B017E95686335A /* [CP] Check Pods Manifest.lock */,
 				229BAAE51F730B5E0025315F /* Sources */,
 				229BAAE61F730B5E0025315F /* Frameworks */,
 				229BAAE71F730B5E0025315F /* Resources */,
+				28A71CB4EFB1C602C1D4480C /* [CP] Embed Pods Frameworks */,
+				ACD12176DDAA996BE6D142C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,20 +311,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23D2A2DA59236E6662991FB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PieMenu/Pods-PieMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeyHolder/KeyHolder.framework",
+				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyHolder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenu/Pods-PieMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A71CB4EFB1C602C1D4480C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D93AD06CCB00A69D6D680EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenu/Pods-PieMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB856C83D48B4B90684B603 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6120895F95241CA93D592372 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PieMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A585721069B017E95686335A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PieMenuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD12176DDAA996BE6D142C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE345053FC54037CDC4C3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PieMenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23B9682C4CA06BB3EC8E65F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		229BAAC91F730B5E0025315F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				229BAB0D1F735BB60025315F /* Pie.swift in Sources */,
-				229BAB081F7325F00025315F /* Key.swift in Sources */,
 				229BAAFE1F7319030025315F /* CircleView.swift in Sources */,
-				229BAB0A1F7325F00025315F /* NSEventModifierFlags+HotKey.swift in Sources */,
-				229BAB091F7325F00025315F /* KeyCombo.swift in Sources */,
 				229BAAFC1F730F050025315F /* CircleWindow.swift in Sources */,
 				229BAAD31F730B5E0025315F /* ViewController.swift in Sources */,
-				229BAB071F7325F00025315F /* HotKeysController.swift in Sources */,
-				229BAB061F7325F00025315F /* HotKey.swift in Sources */,
 				229BAAD11F730B5E0025315F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +625,7 @@
 		};
 		229BAAF31F730B5E0025315F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFB909ECA1A843AC8B68C49 /* Pods-PieMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -459,13 +633,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tgd.PieMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		229BAAF41F730B5E0025315F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5D819D1950DCCB67ECD093 /* Pods-PieMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -473,13 +648,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tgd.PieMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		229BAAF61F730B5E0025315F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B728339D8CAC382552049D3 /* Pods-PieMenuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +672,7 @@
 		};
 		229BAAF71F730B5E0025315F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667754B664678432B8B14587 /* Pods-PieMenuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +689,7 @@
 		};
 		229BAAF91F730B5E0025315F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2FE0E16CAD0662E59D22D2 /* Pods-PieMenuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -527,6 +705,7 @@
 		};
 		229BAAFA1F730B5E0025315F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51876D1A506D5DDDD783146 /* Pods-PieMenuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;

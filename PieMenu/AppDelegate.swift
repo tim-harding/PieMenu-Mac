@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, CircleViewDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         pies.append(Pie(
-            key: HotKey(key: .f1, modifiers: []),
+//            key: HotKey(key: .f1, modifiers: []),
             boundApplication: URL(fileURLWithPath: "/Applications/Spotify.app"),
             slices: [
                 (title: "First", command: "Documents/temp/hide.py"),
@@ -36,7 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, CircleViewDelegate {
         ))
         
         pies.append(Pie(
-            key: HotKey(key: .a, modifiers: [.command, .shift]),
+//            key: HotKey(key: .a, modifiers: [.command, .shift]),
             boundApplication: nil,
             slices: [
                 (title: "One", command: ""),
@@ -55,40 +55,40 @@ class AppDelegate: NSObject, NSApplicationDelegate, CircleViewDelegate {
         view = window?.contentViewController?.view as? CircleView
         view?.delegate = self
         
-        for pie in pies {
-            pie.key?.keyDownHandler = {
-                guard pie.boundApplication == nil || pie.boundApplication?.standardizedFileURL == NSWorkspace.shared.frontmostApplication?.bundleURL?.standardizedFileURL else {
-                    self.didShowPie = false
-                    return
-                }
-                self.didShowPie = true
-                self.activePie = pie
-                
-                self.mouseMonitor = NSEvent.addGlobalMonitorForEvents(matching: NSEvent.EventTypeMask.mouseMoved, handler: {event in
-                    self.view?.updatePosition()
-                }) as AnyObject
-                
-                let position = NSEvent.mouseLocation
-                self.window?.setFrameOrigin(NSPoint(x: position.x - 128.0, y: position.y - 128.0))
-                self.window?.makeKeyAndOrderFront(self)
-                self.window?.level = NSWindow.Level.floating
-                self.view?.needsDisplay = true
-            }
-            
-            pie.key?.keyUpHandler = {
-                guard self.didShowPie else { return }
-                
-                NSEvent.removeMonitor(self.mouseMonitor as Any)
-                self.mouseMonitor = nil
-                self.window?.close()
-                
-                let position = self.view!.position
-                if position < pie.slices.count {
-//                    self.runProgram(binary: "/Users/tim/anaconda/bin/python3", args: [pie.slices[position].command])
-                    self.performShortcut(keycodes: [0x8, 0x4]) // Cmd-h
-                }
-            }
-        }
+//        for pie in pies {
+//            pie.key?.keyDownHandler = {
+//                guard pie.boundApplication == nil || pie.boundApplication?.standardizedFileURL == NSWorkspace.shared.frontmostApplication?.bundleURL?.standardizedFileURL else {
+//                    self.didShowPie = false
+//                    return
+//                }
+//                self.didShowPie = true
+//                self.activePie = pie
+//
+//                self.mouseMonitor = NSEvent.addGlobalMonitorForEvents(matching: NSEvent.EventTypeMask.mouseMoved, handler: {event in
+//                    self.view?.updatePosition()
+//                }) as AnyObject
+//
+//                let position = NSEvent.mouseLocation
+//                self.window?.setFrameOrigin(NSPoint(x: position.x - 128.0, y: position.y - 128.0))
+//                self.window?.makeKeyAndOrderFront(self)
+//                self.window?.level = NSWindow.Level.floating
+//                self.view?.needsDisplay = true
+//            }
+//
+//            pie.key?.keyUpHandler = {
+//                guard self.didShowPie else { return }
+//
+//                NSEvent.removeMonitor(self.mouseMonitor as Any)
+//                self.mouseMonitor = nil
+//                self.window?.close()
+//
+//                let position = self.view!.position
+//                if position < pie.slices.count {
+////                    self.runProgram(binary: "/Users/tim/anaconda/bin/python3", args: [pie.slices[position].command])
+//                    self.performShortcut(keycodes: [0x8, 0x4]) // Cmd-h
+//                }
+//            }
+//        }
     }
     
     func runProgram(binary: String, args: [String]) {

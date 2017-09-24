@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6C7A8382BC0A0ED563BE3796AE2384 /* Magnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7B3CB7B510846DD5B8079DB1CF17E /* Magnet.framework */; };
+		0C8E62E8385A38815777635A74C8C704 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470C1DBA4634E231F92A520AB6222F3 /* Util.swift */; };
+		18FD04203894207C891C49120F5BD9C7 /* Pods-PieMenuTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D64DC9929474FA02973AF0EFB797F9 /* Pods-PieMenuTests-dummy.m */; };
+		20D6626DAEF5439EF3C86F6346FFA8FE /* clear-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9090D914CDBEF812AD622C0B130CE9A4 /* clear-off.png */; };
+		20E657769A6F82462B2789642BEE64FE /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB95EFF4C3B98E1C72C9A2E81E4D60 /* HotKey.swift */; };
+		417EA9C374813034E1549362A968A890 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */; };
+		430AEFBC2A8D3FC7589BC29AC152D702 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D080D11451F91B02C899E58F804DC044 /* Carbon.framework */; };
+		43F320C7274821B4DF0E63B41E12EF97 /* Magnet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE6A8B582502F5644DE3DBD662D02D /* Magnet-dummy.m */; };
+		52A6AE74B83C31EF04B5E4FF21828D22 /* HotKeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196E6C42B89685105A248D18BBEBB78 /* HotKeyCenter.swift */; };
+		57903DB9FDB0FEFAEEE0CEC74F4BA401 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */; };
+		594131A5A66C3DDBE42C99AB23814CB5 /* KeyHolder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6E65E8FCBC4C3D9F63297B8F727CE6 /* KeyHolder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61C75407D65E034E3FE073F48BC95833 /* KeyTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93996A4DF8F7D1F02C274BD3C2CD6BEB /* KeyTransformer.swift */; };
+		75260B0AC75D204EE33AC3A417E95E2B /* KeyHolder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43803BC0772229B0BAC33A9E3325DEC1 /* KeyHolder-dummy.m */; };
+		77BBBF52E91368BD6E5E5C56C3EB19E3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D080D11451F91B02C899E58F804DC044 /* Carbon.framework */; };
+		832A4EBD4F55B3AB11C94C2AF3894163 /* clear-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC3E354AB37C0B92EDF8A8758BB897 /* clear-off@2x.png */; };
+		834BF77F8EFB33F478B36B2EE23AD80E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */; };
+		86D46FBFF5387F0CBDAFF5722A752BD6 /* KeyHolder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 383695CCE130DADF859D5199C876C5E3 /* KeyHolder.bundle */; };
+		89BA796654501868B6B4E1B940D64C98 /* Pods-PieMenuUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE47C49204FE8F30EA19D46F1A08C97 /* Pods-PieMenuUITests-dummy.m */; };
+		9D630293AFA6EB085862DBB8B85410A4 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FA1E23880764D425861E9969E1B3F8 /* RecordView.swift */; };
+		9E741D625C486DAD145595FEB061B184 /* Pods-PieMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB67A2472711D475959F7E663AF5846 /* Pods-PieMenu-dummy.m */; };
+		A3CDE782BEDBD7E33A8C08332F70D4F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */; };
+		A5ADDD3DA0A4FD7661909ECA4B16FFE5 /* Pods-PieMenuUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3166CBCD5324A838E7461D6082F466B5 /* Pods-PieMenuUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC37A9B3C2EB0FB58EAA8A44E2B480EE /* KeyCodeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4FAD657BF1C9FCC077961754A7DD5D /* KeyCodeTransformer.swift */; };
+		BF776D6BA0E9B8620677B6BF91E7D4D9 /* Pods-PieMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B6877ECFB7AF95055719A6373E5C14 /* Pods-PieMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A6D0BE517D3AEEC67A310A1D965FF0 /* clear-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE45E504974768BE413A5679064A8F1 /* clear-on@2x.png */; };
+		DA02BC6E8613A2386526766B8A01B310 /* Pods-PieMenuTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D46E9C8D04D1B67EB9C43146F07994 /* Pods-PieMenuTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09172AB245669050981AB9F0B0F25A0 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9DC3BF247BE424F54CB3B272AD938 /* KeyCombo.swift */; };
+		E82C835C23083A4D285D140FC6DC3284 /* Magnet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17906CAC56CB0340BD309D9E58D51BC1 /* Magnet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D91DFF8E39851BE309CE2BC2AC79E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */; };
+		F988A6172673295D74EE5A4FBF0A8515 /* clear-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC8DFA8D287C7A1F90E3130DD3FC567 /* clear-on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FA8297AE08C759AAD7859D230E3D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459F1E62EEEEA1F6F5652D91AD2D1ECF;
+			remoteInfo = "KeyHolder-KeyHolder";
+		};
+		08D3B370FA9E0B0883DE00FF77C7479B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5A4791FAD4278E43285E1A607C51F;
+			remoteInfo = Magnet;
+		};
+		2937DBAA34CD0CABAA1E3F1CEEDB5FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5A4791FAD4278E43285E1A607C51F;
+			remoteInfo = Magnet;
+		};
+		ECCECCB157BF51C5C11DA278CF238C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABB2255B6C8DE8BADFAF5700C385910;
+			remoteInfo = KeyHolder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0196E6C42B89685105A248D18BBEBB78 /* HotKeyCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeyCenter.swift; path = Lib/Magnet/HotKeyCenter.swift; sourceTree = "<group>"; };
+		02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0365C16B41BA6E7941C63C3BD203EBE5 /* Magnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Magnet.xcconfig; sourceTree = "<group>"; };
+		03D64DC9929474FA02973AF0EFB797F9 /* Pods-PieMenuTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PieMenuTests-dummy.m"; sourceTree = "<group>"; };
+		0E6E65E8FCBC4C3D9F63297B8F727CE6 /* KeyHolder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyHolder-umbrella.h"; sourceTree = "<group>"; };
+		1300F12C8939C9D2BA7F9B281745FDE8 /* Pods-PieMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenu.release.xcconfig"; sourceTree = "<group>"; };
+		17906CAC56CB0340BD309D9E58D51BC1 /* Magnet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnet-umbrella.h"; sourceTree = "<group>"; };
+		1B4FAD657BF1C9FCC077961754A7DD5D /* KeyCodeTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCodeTransformer.swift; path = Lib/Magnet/KeyCodeTransformer.swift; sourceTree = "<group>"; };
+		1DBEFF7E385C3BDCF86A3491EA891225 /* Pods_PieMenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFC3E354AB37C0B92EDF8A8758BB897 /* clear-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear-off@2x.png"; path = "Lib/KeyHolder/Resources/clear-off@2x.png"; sourceTree = "<group>"; };
+		22A03E7984FF25E883CBD94EBDD3E806 /* Magnet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnet-prefix.pch"; sourceTree = "<group>"; };
+		2EAE19B7FD8A2AA98C17779949149006 /* Pods-PieMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		3166CBCD5324A838E7461D6082F466B5 /* Pods-PieMenuUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PieMenuUITests-umbrella.h"; sourceTree = "<group>"; };
+		3264E77DA2E2F3AB1ACF077E394DBD63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3573396FD8707F8A6B2464EC87B09457 /* Pods-PieMenuTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenuTests-frameworks.sh"; sourceTree = "<group>"; };
+		383695CCE130DADF859D5199C876C5E3 /* KeyHolder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyHolder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB2F3D7389A15A46EF3FB9A6E61FC34 /* KeyHolder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyHolder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE45E504974768BE413A5679064A8F1 /* clear-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear-on@2x.png"; path = "Lib/KeyHolder/Resources/clear-on@2x.png"; sourceTree = "<group>"; };
+		42167B5086C796D71424DE5B3D6F2162 /* Pods-PieMenuTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PieMenuTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43803BC0772229B0BAC33A9E3325DEC1 /* KeyHolder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyHolder-dummy.m"; sourceTree = "<group>"; };
+		4435B403C1FA5DA1A4060401C8C70304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F1CB4204052E778BCB9591F8C116DB /* Pods-PieMenuUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PieMenuUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		481B5D5CE488FD24BC4B56979B5BBB9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4875324F59BDFC8E80EE871685DF1686 /* Pods-PieMenuTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PieMenuTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53A5C942D8796750A1199B07C5B41A55 /* Pods-PieMenuUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenuUITests-resources.sh"; sourceTree = "<group>"; };
+		59298A86A8668F6F669BE669C5B892B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5981DCF6AD381883CEE09A4D634C217E /* Magnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Magnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A624E204FB05B917EBE6D9EB5BD2C7 /* Pods-PieMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE1BCE7107F3BCF5C5E0A55AA276CCF /* Pods_PieMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7890CB48A77F7FF7AADC1DCA883180 /* Pods-PieMenu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PieMenu-acknowledgements.plist"; sourceTree = "<group>"; };
+		679624CBA8D6F472F1A1F891ED3C8BAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB67A2472711D475959F7E663AF5846 /* Pods-PieMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PieMenu-dummy.m"; sourceTree = "<group>"; };
+		7EE47C49204FE8F30EA19D46F1A08C97 /* Pods-PieMenuUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PieMenuUITests-dummy.m"; sourceTree = "<group>"; };
+		80DE8878C5CCA7B5C525E69AB6A617B7 /* Pods-PieMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PieMenu.modulemap"; sourceTree = "<group>"; };
+		83E7B3CB7B510846DD5B8079DB1CF17E /* Magnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Magnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842B8CF7FB31C9A25BC85582D8CC47CE /* Pods-PieMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89FA1E23880764D425861E9969E1B3F8 /* RecordView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordView.swift; path = Lib/KeyHolder/RecordView.swift; sourceTree = "<group>"; };
+		8B828B9222B57B4485994F1065F9B4E4 /* Pods-PieMenuUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PieMenuUITests.modulemap"; sourceTree = "<group>"; };
+		9090D914CDBEF812AD622C0B130CE9A4 /* clear-off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear-off.png"; path = "Lib/KeyHolder/Resources/clear-off.png"; sourceTree = "<group>"; };
+		93996A4DF8F7D1F02C274BD3C2CD6BEB /* KeyTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyTransformer.swift; path = Lib/Magnet/KeyTransformer.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		989BA91B32B10BCFD82E9ED96322792F /* Pods-PieMenuUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenuUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9BC8DFA8D287C7A1F90E3130DD3FC567 /* clear-on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear-on.png"; path = "Lib/KeyHolder/Resources/clear-on.png"; sourceTree = "<group>"; };
+		9CC61C74FEF3C1E0914B70E752498897 /* Pods-PieMenuTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenuTests-resources.sh"; sourceTree = "<group>"; };
+		A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyHolder.xcconfig; sourceTree = "<group>"; };
+		A42185E35F264921B9CA66B492F39139 /* Pods-PieMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4B6877ECFB7AF95055719A6373E5C14 /* Pods-PieMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PieMenu-umbrella.h"; sourceTree = "<group>"; };
+		AC5B2E06A24B41EF9D295B1A18EDF16D /* KeyHolder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeyHolder.modulemap; sourceTree = "<group>"; };
+		B0FE6A8B582502F5644DE3DBD662D02D /* Magnet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Magnet-dummy.m"; sourceTree = "<group>"; };
+		B470C1DBA4634E231F92A520AB6222F3 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = Lib/KeyHolder/Util.swift; sourceTree = "<group>"; };
+		BBB6597539A17DC3DF20ACA9DF40E87A /* Magnet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Magnet.modulemap; sourceTree = "<group>"; };
+		BECB95EFF4C3B98E1C72C9A2E81E4D60 /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Lib/Magnet/HotKey.swift; sourceTree = "<group>"; };
+		C38CBE72FD6CB8C80FD1DAF2816EAC0D /* Pods-PieMenu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenu-frameworks.sh"; sourceTree = "<group>"; };
+		D080D11451F91B02C899E58F804DC044 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		D08EBA2A9A0C7663F597CC3AC505A67A /* Pods-PieMenuUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PieMenuUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2D31D948B72EF60DC59658BFDEEA6F3 /* Pods-PieMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D46E9C8D04D1B67EB9C43146F07994 /* Pods-PieMenuTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PieMenuTests-umbrella.h"; sourceTree = "<group>"; };
+		E4FBC1D89639242B3702D8A60E995549 /* Pods_PieMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAB969876D5EA0D4C9C160396599959 /* Pods-PieMenu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieMenu-resources.sh"; sourceTree = "<group>"; };
+		EECC3AA84A8AD33F2442E6B9EED778F0 /* Pods-PieMenuTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PieMenuTests.modulemap"; sourceTree = "<group>"; };
+		F06809DD3F82390ADDBDC13A7D765C2B /* KeyHolder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyHolder-prefix.pch"; sourceTree = "<group>"; };
+		F441F81458D8EF72B7577DEE6315FAD6 /* ResourceBundle-KeyHolder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KeyHolder-Info.plist"; sourceTree = "<group>"; };
+		F4B9DC3BF247BE424F54CB3B272AD938 /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Lib/Magnet/KeyCombo.swift; sourceTree = "<group>"; };
+		FED9B028CB25B42E8EBC10570F57948A /* Pods-PieMenu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PieMenu-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3048A193D0E4F2023ACE0A480ED0C606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CDE782BEDBD7E33A8C08332F70D4F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581F168C654CDEDCCE5E95A9177B056F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BBBF52E91368BD6E5E5C56C3EB19E3 /* Carbon.framework in Frameworks */,
+				57903DB9FDB0FEFAEEE0CEC74F4BA401 /* Cocoa.framework in Frameworks */,
+				0A6C7A8382BC0A0ED563BE3796AE2384 /* Magnet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6584442062CDAA14EBB768DC89EB010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D91DFF8E39851BE309CE2BC2AC79E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE953F3DEB67F1A2AA537E6E9BAE41EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B27D019B3397B301C36EF87B94F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417EA9C374813034E1549362A968A890 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0552EDADB86342CAE48A71A2E64855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430AEFBC2A8D3FC7589BC29AC152D702 /* Carbon.framework in Frameworks */,
+				834BF77F8EFB33F478B36B2EE23AD80E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5B728E55DE046E44FBD7972E319CA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4435B403C1FA5DA1A4060401C8C70304 /* Info.plist */,
+				AC5B2E06A24B41EF9D295B1A18EDF16D /* KeyHolder.modulemap */,
+				A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */,
+				43803BC0772229B0BAC33A9E3325DEC1 /* KeyHolder-dummy.m */,
+				F06809DD3F82390ADDBDC13A7D765C2B /* KeyHolder-prefix.pch */,
+				0E6E65E8FCBC4C3D9F63297B8F727CE6 /* KeyHolder-umbrella.h */,
+				F441F81458D8EF72B7577DEE6315FAD6 /* ResourceBundle-KeyHolder-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeyHolder";
+			sourceTree = "<group>";
+		};
+		5DD8A5A343FA6062596EAFA563E190E6 /* Magnet */ = {
+			isa = PBXGroup;
+			children = (
+				BECB95EFF4C3B98E1C72C9A2E81E4D60 /* HotKey.swift */,
+				0196E6C42B89685105A248D18BBEBB78 /* HotKeyCenter.swift */,
+				1B4FAD657BF1C9FCC077961754A7DD5D /* KeyCodeTransformer.swift */,
+				F4B9DC3BF247BE424F54CB3B272AD938 /* KeyCombo.swift */,
+				93996A4DF8F7D1F02C274BD3C2CD6BEB /* KeyTransformer.swift */,
+				903AEB1D436B2F1314DB8DAC793FD09F /* Support Files */,
+			);
+			path = Magnet;
+			sourceTree = "<group>";
+		};
+		5F5ABA6048B97B246939B8F1235B2CD3 /* Pods-PieMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3264E77DA2E2F3AB1ACF077E394DBD63 /* Info.plist */,
+				80DE8878C5CCA7B5C525E69AB6A617B7 /* Pods-PieMenu.modulemap */,
+				FED9B028CB25B42E8EBC10570F57948A /* Pods-PieMenu-acknowledgements.markdown */,
+				5D7890CB48A77F7FF7AADC1DCA883180 /* Pods-PieMenu-acknowledgements.plist */,
+				7CB67A2472711D475959F7E663AF5846 /* Pods-PieMenu-dummy.m */,
+				C38CBE72FD6CB8C80FD1DAF2816EAC0D /* Pods-PieMenu-frameworks.sh */,
+				EEAB969876D5EA0D4C9C160396599959 /* Pods-PieMenu-resources.sh */,
+				A4B6877ECFB7AF95055719A6373E5C14 /* Pods-PieMenu-umbrella.h */,
+				2EAE19B7FD8A2AA98C17779949149006 /* Pods-PieMenu.debug.xcconfig */,
+				1300F12C8939C9D2BA7F9B281745FDE8 /* Pods-PieMenu.release.xcconfig */,
+			);
+			name = "Pods-PieMenu";
+			path = "Target Support Files/Pods-PieMenu";
+			sourceTree = "<group>";
+		};
+		70A0563980ED15120862762CAFA99BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD613A4775421D783C6591FB46A35F /* KeyHolder */,
+				5DD8A5A343FA6062596EAFA563E190E6 /* Magnet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF423D0FCEC8003552ADA262E929813F /* Frameworks */,
+				70A0563980ED15120862762CAFA99BC4 /* Pods */,
+				8EE40C4FFEACA5FFAA0CDD807617E492 /* Products */,
+				A1E0870920C2574B9A71A4101C626376 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CC8B12E27CD099AA3E4A1B09C4011E /* Pods-PieMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				679624CBA8D6F472F1A1F891ED3C8BAA /* Info.plist */,
+				8B828B9222B57B4485994F1065F9B4E4 /* Pods-PieMenuUITests.modulemap */,
+				44F1CB4204052E778BCB9591F8C116DB /* Pods-PieMenuUITests-acknowledgements.markdown */,
+				D08EBA2A9A0C7663F597CC3AC505A67A /* Pods-PieMenuUITests-acknowledgements.plist */,
+				7EE47C49204FE8F30EA19D46F1A08C97 /* Pods-PieMenuUITests-dummy.m */,
+				989BA91B32B10BCFD82E9ED96322792F /* Pods-PieMenuUITests-frameworks.sh */,
+				53A5C942D8796750A1199B07C5B41A55 /* Pods-PieMenuUITests-resources.sh */,
+				3166CBCD5324A838E7461D6082F466B5 /* Pods-PieMenuUITests-umbrella.h */,
+				D2D31D948B72EF60DC59658BFDEEA6F3 /* Pods-PieMenuUITests.debug.xcconfig */,
+				59A624E204FB05B917EBE6D9EB5BD2C7 /* Pods-PieMenuUITests.release.xcconfig */,
+			);
+			name = "Pods-PieMenuUITests";
+			path = "Target Support Files/Pods-PieMenuUITests";
+			sourceTree = "<group>";
+		};
+		8EE40C4FFEACA5FFAA0CDD807617E492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383695CCE130DADF859D5199C876C5E3 /* KeyHolder.bundle */,
+				3BB2F3D7389A15A46EF3FB9A6E61FC34 /* KeyHolder.framework */,
+				5981DCF6AD381883CEE09A4D634C217E /* Magnet.framework */,
+				E4FBC1D89639242B3702D8A60E995549 /* Pods_PieMenu.framework */,
+				5CE1BCE7107F3BCF5C5E0A55AA276CCF /* Pods_PieMenuTests.framework */,
+				1DBEFF7E385C3BDCF86A3491EA891225 /* Pods_PieMenuUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903AEB1D436B2F1314DB8DAC793FD09F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59298A86A8668F6F669BE669C5B892B2 /* Info.plist */,
+				BBB6597539A17DC3DF20ACA9DF40E87A /* Magnet.modulemap */,
+				0365C16B41BA6E7941C63C3BD203EBE5 /* Magnet.xcconfig */,
+				B0FE6A8B582502F5644DE3DBD662D02D /* Magnet-dummy.m */,
+				22A03E7984FF25E883CBD94EBDD3E806 /* Magnet-prefix.pch */,
+				17906CAC56CB0340BD309D9E58D51BC1 /* Magnet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Magnet";
+			sourceTree = "<group>";
+		};
+		9ACEF4FB228664CA1FA3F24B31F77C29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9090D914CDBEF812AD622C0B130CE9A4 /* clear-off.png */,
+				1EFC3E354AB37C0B92EDF8A8758BB897 /* clear-off@2x.png */,
+				9BC8DFA8D287C7A1F90E3130DD3FC567 /* clear-on.png */,
+				3CE45E504974768BE413A5679064A8F1 /* clear-on@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1E0870920C2574B9A71A4101C626376 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5ABA6048B97B246939B8F1235B2CD3 /* Pods-PieMenu */,
+				A77725922CF449A5D01749E2AF2A03F7 /* Pods-PieMenuTests */,
+				82CC8B12E27CD099AA3E4A1B09C4011E /* Pods-PieMenuUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A77725922CF449A5D01749E2AF2A03F7 /* Pods-PieMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				481B5D5CE488FD24BC4B56979B5BBB9B /* Info.plist */,
+				EECC3AA84A8AD33F2442E6B9EED778F0 /* Pods-PieMenuTests.modulemap */,
+				42167B5086C796D71424DE5B3D6F2162 /* Pods-PieMenuTests-acknowledgements.markdown */,
+				4875324F59BDFC8E80EE871685DF1686 /* Pods-PieMenuTests-acknowledgements.plist */,
+				03D64DC9929474FA02973AF0EFB797F9 /* Pods-PieMenuTests-dummy.m */,
+				3573396FD8707F8A6B2464EC87B09457 /* Pods-PieMenuTests-frameworks.sh */,
+				9CC61C74FEF3C1E0914B70E752498897 /* Pods-PieMenuTests-resources.sh */,
+				E2D46E9C8D04D1B67EB9C43146F07994 /* Pods-PieMenuTests-umbrella.h */,
+				842B8CF7FB31C9A25BC85582D8CC47CE /* Pods-PieMenuTests.debug.xcconfig */,
+				A42185E35F264921B9CA66B492F39139 /* Pods-PieMenuTests.release.xcconfig */,
+			);
+			name = "Pods-PieMenuTests";
+			path = "Target Support Files/Pods-PieMenuTests";
+			sourceTree = "<group>";
+		};
+		E2FD613A4775421D783C6591FB46A35F /* KeyHolder */ = {
+			isa = PBXGroup;
+			children = (
+				89FA1E23880764D425861E9969E1B3F8 /* RecordView.swift */,
+				B470C1DBA4634E231F92A520AB6222F3 /* Util.swift */,
+				9ACEF4FB228664CA1FA3F24B31F77C29 /* Resources */,
+				0B5B728E55DE046E44FBD7972E319CA4 /* Support Files */,
+			);
+			path = KeyHolder;
+			sourceTree = "<group>";
+		};
+		E6DF00B3BB7DEBD76522F55B3C127F38 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D080D11451F91B02C899E58F804DC044 /* Carbon.framework */,
+				02DEF4EEC408BAB3C87E849F4F694C74 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		FF423D0FCEC8003552ADA262E929813F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E7B3CB7B510846DD5B8079DB1CF17E /* Magnet.framework */,
+				E6DF00B3BB7DEBD76522F55B3C127F38 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51D98E772E7DF14831894F3416581F47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ADDD3DA0A4FD7661909ECA4B16FFE5 /* Pods-PieMenuUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF6939CD4B4BC342C158772E17FD384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA02BC6E8613A2386526766B8A01B310 /* Pods-PieMenuTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F4E35FBF3B6DA2D72E9F1CC1EDB83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594131A5A66C3DDBE42C99AB23814CB5 /* KeyHolder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372D14E6348280238CCFB3B29843AC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF776D6BA0E9B8620677B6BF91E7D4D9 /* Pods-PieMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4B2A652F2378B71C349B5EB224BBDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82C835C23083A4D285D140FC6DC3284 /* Magnet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E7E938FD6E2F98600A3D22530B7C383 /* Pods-PieMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0026B4AF0896F8A0E63771E086A08147 /* Build configuration list for PBXNativeTarget "Pods-PieMenuUITests" */;
+			buildPhases = (
+				CB4808AF0C68EBA5008FA062B09602EA /* Sources */,
+				6584442062CDAA14EBB768DC89EB010E /* Frameworks */,
+				51D98E772E7DF14831894F3416581F47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PieMenuUITests";
+			productName = "Pods-PieMenuUITests";
+			productReference = 1DBEFF7E385C3BDCF86A3491EA891225 /* Pods_PieMenuUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		459F1E62EEEEA1F6F5652D91AD2D1ECF /* KeyHolder-KeyHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480CFEE8B386AB91A86190E7BE3504E1 /* Build configuration list for PBXNativeTarget "KeyHolder-KeyHolder" */;
+			buildPhases = (
+				28245CED456D748AF4750305777D14B0 /* Sources */,
+				AE953F3DEB67F1A2AA537E6E9BAE41EE /* Frameworks */,
+				4ACD53EBF51ADD5DD73D209F0AA60B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyHolder-KeyHolder";
+			productName = "KeyHolder-KeyHolder";
+			productReference = 383695CCE130DADF859D5199C876C5E3 /* KeyHolder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		58B5A4791FAD4278E43285E1A607C51F /* Magnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E855EB9B0C3EA7EBD064A34A55918AF /* Build configuration list for PBXNativeTarget "Magnet" */;
+			buildPhases = (
+				D2D7F2BE9B85B597220AAD59F97DD664 /* Sources */,
+				FE0552EDADB86342CAE48A71A2E64855 /* Frameworks */,
+				EE4B2A652F2378B71C349B5EB224BBDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnet;
+			productName = Magnet;
+			productReference = 5981DCF6AD381883CEE09A4D634C217E /* Magnet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF40B672E4603298EAE361B53794FD0 /* Pods-PieMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B49D7A235BE7383CE27F541370BA75 /* Build configuration list for PBXNativeTarget "Pods-PieMenuTests" */;
+			buildPhases = (
+				4848DD32AB834A11FD0A096995ABAA18 /* Sources */,
+				EC6B27D019B3397B301C36EF87B94F97 /* Frameworks */,
+				5EF6939CD4B4BC342C158772E17FD384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PieMenuTests";
+			productName = "Pods-PieMenuTests";
+			productReference = 5CE1BCE7107F3BCF5C5E0A55AA276CCF /* Pods_PieMenuTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2042A27B437B9E334830C092A2D29F6 /* Pods-PieMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D702747C633656A696DE5DD6E8F77C /* Build configuration list for PBXNativeTarget "Pods-PieMenu" */;
+			buildPhases = (
+				270C445C180E68241DA4572ABCE2FF43 /* Sources */,
+				3048A193D0E4F2023ACE0A480ED0C606 /* Frameworks */,
+				D372D14E6348280238CCFB3B29843AC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F93DB16A99DAC8D124CFC969AABDC9D /* PBXTargetDependency */,
+				D26FB030378E0A676E789A9DDD89F055 /* PBXTargetDependency */,
+			);
+			name = "Pods-PieMenu";
+			productName = "Pods-PieMenu";
+			productReference = E4FBC1D89639242B3702D8A60E995549 /* Pods_PieMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FABB2255B6C8DE8BADFAF5700C385910 /* KeyHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B0EB959D541AE84B911F9139E36139 /* Build configuration list for PBXNativeTarget "KeyHolder" */;
+			buildPhases = (
+				70583DEAE41668D23540F7406B536128 /* Sources */,
+				581F168C654CDEDCCE5E95A9177B056F /* Frameworks */,
+				D7AE2FE70C1C7E7EBF98F9918B278EA9 /* Resources */,
+				C2F4E35FBF3B6DA2D72E9F1CC1EDB83D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F0D5DB23A79B02F254E0F396C7E4FF6 /* PBXTargetDependency */,
+				514E4E56C89FE185E93E1872DF992471 /* PBXTargetDependency */,
+			);
+			name = KeyHolder;
+			productName = KeyHolder;
+			productReference = 3BB2F3D7389A15A46EF3FB9A6E61FC34 /* KeyHolder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EE40C4FFEACA5FFAA0CDD807617E492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABB2255B6C8DE8BADFAF5700C385910 /* KeyHolder */,
+				459F1E62EEEEA1F6F5652D91AD2D1ECF /* KeyHolder-KeyHolder */,
+				58B5A4791FAD4278E43285E1A607C51F /* Magnet */,
+				A2042A27B437B9E334830C092A2D29F6 /* Pods-PieMenu */,
+				5AF40B672E4603298EAE361B53794FD0 /* Pods-PieMenuTests */,
+				3E7E938FD6E2F98600A3D22530B7C383 /* Pods-PieMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACD53EBF51ADD5DD73D209F0AA60B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D6626DAEF5439EF3C86F6346FFA8FE /* clear-off.png in Resources */,
+				832A4EBD4F55B3AB11C94C2AF3894163 /* clear-off@2x.png in Resources */,
+				F988A6172673295D74EE5A4FBF0A8515 /* clear-on.png in Resources */,
+				C7A6D0BE517D3AEEC67A310A1D965FF0 /* clear-on@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE2FE70C1C7E7EBF98F9918B278EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D46FBFF5387F0CBDAFF5722A752BD6 /* KeyHolder.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270C445C180E68241DA4572ABCE2FF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E741D625C486DAD145595FEB061B184 /* Pods-PieMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28245CED456D748AF4750305777D14B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4848DD32AB834A11FD0A096995ABAA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD04203894207C891C49120F5BD9C7 /* Pods-PieMenuTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70583DEAE41668D23540F7406B536128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75260B0AC75D204EE33AC3A417E95E2B /* KeyHolder-dummy.m in Sources */,
+				9D630293AFA6EB085862DBB8B85410A4 /* RecordView.swift in Sources */,
+				0C8E62E8385A38815777635A74C8C704 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4808AF0C68EBA5008FA062B09602EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BA796654501868B6B4E1B940D64C98 /* Pods-PieMenuUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7F2BE9B85B597220AAD59F97DD664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E657769A6F82462B2789642BEE64FE /* HotKey.swift in Sources */,
+				52A6AE74B83C31EF04B5E4FF21828D22 /* HotKeyCenter.swift in Sources */,
+				BC37A9B3C2EB0FB58EAA8A44E2B480EE /* KeyCodeTransformer.swift in Sources */,
+				E09172AB245669050981AB9F0B0F25A0 /* KeyCombo.swift in Sources */,
+				61C75407D65E034E3FE073F48BC95833 /* KeyTransformer.swift in Sources */,
+				43F320C7274821B4DF0E63B41E12EF97 /* Magnet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F0D5DB23A79B02F254E0F396C7E4FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KeyHolder-KeyHolder";
+			target = 459F1E62EEEEA1F6F5652D91AD2D1ECF /* KeyHolder-KeyHolder */;
+			targetProxy = 04FA8297AE08C759AAD7859D230E3D5B /* PBXContainerItemProxy */;
+		};
+		514E4E56C89FE185E93E1872DF992471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnet;
+			target = 58B5A4791FAD4278E43285E1A607C51F /* Magnet */;
+			targetProxy = 2937DBAA34CD0CABAA1E3F1CEEDB5FB7 /* PBXContainerItemProxy */;
+		};
+		9F93DB16A99DAC8D124CFC969AABDC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyHolder;
+			target = FABB2255B6C8DE8BADFAF5700C385910 /* KeyHolder */;
+			targetProxy = ECCECCB157BF51C5C11DA278CF238C62 /* PBXContainerItemProxy */;
+		};
+		D26FB030378E0A676E789A9DDD89F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnet;
+			target = 58B5A4791FAD4278E43285E1A607C51F /* Magnet */;
+			targetProxy = 08D3B370FA9E0B0883DE00FF77C7479B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1192BBFAD07ECBF4C730946EDC9B639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KeyHolder";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/KeyHolder/ResourceBundle-KeyHolder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = KeyHolder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3D4EB939B122E9EB7C4B6DE8FE83941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0365C16B41BA6E7941C63C3BD203EBE5 /* Magnet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnet/Magnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Magnet/Magnet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Magnet;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B47F26E9EFC9A98C5FDDAB38135C990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0365C16B41BA6E7941C63C3BD203EBE5 /* Magnet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnet/Magnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Magnet/Magnet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Magnet;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F572E03DABF9643B8EBB79A443A70B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1300F12C8939C9D2BA7F9B281745FDE8 /* Pods-PieMenu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenu/Pods-PieMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenu;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71B4D455C6A97C201FBC655E297059FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42185E35F264921B9CA66B492F39139 /* Pods-PieMenuTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenuTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenuTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7997F61DE46D2AEBA96CA21A76D2CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KeyHolder";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/KeyHolder/ResourceBundle-KeyHolder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = KeyHolder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8DE12B2EC9B643D8FCEBD528CA534FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeyHolder/KeyHolder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyHolder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/KeyHolder/KeyHolder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeyHolder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACBEC40DB0E00C4A81D65A3907A30548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842B8CF7FB31C9A25BC85582D8CC47CE /* Pods-PieMenuTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenuTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenuTests/Pods-PieMenuTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenuTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B51FB634A528CEE363E32365B92321B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D31D948B72EF60DC59658BFDEEA6F3 /* Pods-PieMenuUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenuUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenuUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D73FC2986493A557E4BD631738FD91B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A287969250898D9CD32C081D4FE78A3A /* KeyHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeyHolder/KeyHolder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyHolder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/KeyHolder/KeyHolder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeyHolder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F63EC604D02B051B67D99877D68C9243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAE19B7FD8A2AA98C17779949149006 /* Pods-PieMenu.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenu/Pods-PieMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenu;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC4738C3605827B2CD972C349A860865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2A76DDDA119826457828C6CE55CCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A624E204FB05B917EBE6D9EB5BD2C7 /* Pods-PieMenuUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PieMenuUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-PieMenuUITests/Pods-PieMenuUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PieMenuUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0026B4AF0896F8A0E63771E086A08147 /* Build configuration list for PBXNativeTarget "Pods-PieMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51FB634A528CEE363E32365B92321B4 /* Debug */,
+				FF2A76DDDA119826457828C6CE55CCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */,
+				FC4738C3605827B2CD972C349A860865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D702747C633656A696DE5DD6E8F77C /* Build configuration list for PBXNativeTarget "Pods-PieMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63EC604D02B051B67D99877D68C9243 /* Debug */,
+				6F572E03DABF9643B8EBB79A443A70B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480CFEE8B386AB91A86190E7BE3504E1 /* Build configuration list for PBXNativeTarget "KeyHolder-KeyHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997F61DE46D2AEBA96CA21A76D2CBAC /* Debug */,
+				1192BBFAD07ECBF4C730946EDC9B639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E855EB9B0C3EA7EBD064A34A55918AF /* Build configuration list for PBXNativeTarget "Magnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4EB939B122E9EB7C4B6DE8FE83941B /* Debug */,
+				4B47F26E9EFC9A98C5FDDAB38135C990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B49D7A235BE7383CE27F541370BA75 /* Build configuration list for PBXNativeTarget "Pods-PieMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEC40DB0E00C4A81D65A3907A30548 /* Debug */,
+				71B4D455C6A97C201FBC655E297059FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B0EB959D541AE84B911F9139E36139 /* Build configuration list for PBXNativeTarget "KeyHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73FC2986493A557E4BD631738FD91B6 /* Debug */,
+				8DE12B2EC9B643D8FCEBD528CA534FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
