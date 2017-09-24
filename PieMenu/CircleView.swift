@@ -13,13 +13,15 @@ class CircleView: NSView {
         }
     }
     
-    // center, right, top-right, top, ...
-    private var _position: Int = 8
+    // right, upper-right, top, ... lower right, center
+    private var _position = 8
     // Degrees
     private var gap = 1.0
     private let innerRadius = CGFloat(32)
     
     func updatePosition() {
+        let originalPosition = _position
+        
         let mouseOrigin = NSEvent.mouseLocation
         let windowOrigin = window!.frame.origin
         let originOffset = NSPoint(x: mouseOrigin.x - windowOrigin.x - bounds.midX, y: mouseOrigin.y - windowOrigin.y - bounds.midY)
@@ -31,7 +33,9 @@ class CircleView: NSView {
             _position = (Int((atan(originOffset.y / originOffset.x) / CGFloat.pi * 6)) + 8 + (originOffset.x < 0 ? 4 : 0)) % 8
         }
         
-        needsDisplay = true
+        if _position != originalPosition {
+            needsDisplay = true
+        }
     }
     
     private func darkActive(section: Int) {
